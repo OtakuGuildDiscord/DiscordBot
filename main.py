@@ -48,7 +48,7 @@ class MyClient(discord.Client):
 client = MyClient(intents=intents)
 
 #change while deploying
-client.run(os.environ['BOT_Token'])
+client.run(os.environ['BOT_TOKEN'])
 
 if __name__ == '__main__':
     asyncio.run(main())
